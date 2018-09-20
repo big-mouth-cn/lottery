@@ -1,0 +1,20 @@
+server:
+  port: 9012
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://47.96.253.233/lottery_test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+      username: root
+      password: bxm.2018
+      driver-class-name: com.mysql.jdbc.Driver
+  resources:
+    static-locations: classpath:/statics/
+  freemarker:
+    cache: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    request-context-attribute: ctx
+
+mybatis:
+  mapper-locations: classpath:mybatis/*Mapper.xml

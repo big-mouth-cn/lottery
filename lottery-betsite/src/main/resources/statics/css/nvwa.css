@@ -1,0 +1,171 @@
+::-webkit-scrollbar {
+	width: 8px
+}
+
+::-webkit-scrollbar-button {
+	width: 8px;
+	height: 5px
+}
+
+::-webkit-scrollbar-track {
+	background: #eee;
+	border: thin solid lightgray;
+	box-shadow: 0 0 3px #dfdfdf inset;
+	border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+	background: #999;
+	border: thin solid gray;
+	border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #7d7d7d
+}
+
+em {
+	font-family: cursive;
+	padding: 0 5px;
+	color: #ccc;
+	content: "/\00a0";
+}
+.badge {
+	color: #000;
+	background-color: transparent;
+}
+.score.form-control {
+	height:27px;
+}
+.table.numbers tbody tr td {
+	padding: 0px 5px;
+}
+td.normal {
+	padding: 5px;
+}
+.panel-heading {
+	font-weight: bold;
+}
+.panel {
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+
+.drawing {
+	font-size: 22px;
+	text-align: right;
+}
+@media screen and (max-width: 767px) {
+	.drawing {
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.nav-tabs>li>a, .nav-tabs>li>a:focus {
+		padding: 5px;
+	}
+}
+
+button.icon {
+	width: 28px;
+	height: 28px;
+	border: 0px;
+}
+.icon {
+	width: 28px;
+}
+.icon_1 {
+	background: url(../img/icon_game.png);
+	background-position: 0px -199px;
+}
+.icon_2 {
+	background: url(../img/icon_game.png);
+	background-position: -36px -199px;
+}
+.icon_3 {
+	background: url(../img/icon_game.png);
+	background-position: -71px -199px;
+}
+.icon_4 {
+	background: url(../img/icon_game.png);
+	background-position: -107px -199px;
+}
+.icon_5 {
+	background: url(../img/icon_game.png);
+	background-position: -142px -199px;
+}
+.icon_6 {
+	background: url(../img/icon_game.png);
+	background-position: -178px -199px;
+}
+.icon_7 {
+	background: url(../img/icon_game.png);
+	background-position: -213px -199px;
+}
+.icon_8 {
+	background: url(../img/icon_game.png);
+	background-position: -249px -199px;
+}
+.icon_9 {
+	background: url(../img/icon_game.png);
+	background-position: -284px -199px;
+}
+.icon_10 {
+	background: url(../img/icon_game.png);
+	background-position: -320px -199px;
+}
+.multiple {
+	font-weight: bold;
+}
+
+.table2 th, .table2 td {
+	text-align: center;
+}
+.icon2 {
+	width:36px;
+}
+.icon2_1 {
+	background: url(../img/icon_game.png);
+	background-position: 6px -192px;
+}
+.icon2_2 {
+	background: url(../img/icon_game.png);
+	background-position: -30px -192px;
+}
+.icon2_3 {
+	background: url(../img/icon_game.png);
+	background-position: -65px -192px;
+}
+.icon2_4 {
+	background: url(../img/icon_game.png);
+	background-position: -101px -192px;
+}
+.icon2_5 {
+	background: url(../img/icon_game.png);
+	background-position: -136px -192px;
+}
+.icon2_6 {
+	background: url(../img/icon_game.png);
+	background-position: -173px -192px;
+}
+.icon2_7 {
+	background: url(../img/icon_game.png);
+	background-position: -208px -192px;
+}
+.icon2_8 {
+	background: url(../img/icon_game.png);
+	background-position: -244px -192px;
+}
+.icon2_9 {
+	background: url(../img/icon_game.png);
+	background-position: -279px -192px;
+}
+.icon2_10 {
+	background: url(../img/icon_game.png);
+	background-position: -315px -192px;
+}
+
+td.hit {
+	font-weight: bold;
+	color: red;
+}

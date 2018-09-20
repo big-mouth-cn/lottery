@@ -1,0 +1,23 @@
+body {
+    overflow-x: hidden;
+}
+.scroll {
+    width: 100%;
+    overflow-x:scroll; 
+    white-space:nowrap;
+    padding-bottom: 5px;
+}
+.nav-tabs {
+    margin-bottom: 5px;
+}
+table {
+    table-layout: fixed;
+}
+td.overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+::-webkit-scrollbar {
+    height: 3px;
+}
